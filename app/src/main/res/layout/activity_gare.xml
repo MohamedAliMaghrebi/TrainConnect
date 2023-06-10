@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#031035"
+    android:orientation="vertical"
+    tools:context=".GareActivity">
+
+    <TextView
+        android:id="@+id/textViewNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center_horizontal"
+        android:paddingTop="32dp"
+        android:paddingBottom="32dp"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        tools:text="[Nom de la gare]" />
+
+    <TextView
+        android:id="@+id/textViewAdresse"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_margin="30dp"
+        android:background="#EF0A0A"
+        android:gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:text="[adresse]" />
+
+    <TextView
+        android:id="@+id/xx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center_horizontal"
+        android:paddingTop="32dp"
+        android:paddingBottom="32dp"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        app:srcCompat="@drawable/pngegg__4_" />
+
+
+</LinearLayout>
